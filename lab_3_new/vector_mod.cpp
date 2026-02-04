@@ -64,7 +64,7 @@ thread_range vector_thread_range(size_t total_words, unsigned total_threads, uns
 }
 
 struct thread_result_t {
-    alignas(std::hardware_destructive_interference_size) IntegerWord value;
+    alignas(64) IntegerWord value;
 };
 
 IntegerWord vector_mod(const IntegerWord* V, std::size_t N, IntegerWord mod) {
