@@ -1,0 +1,26 @@
+# CMake build folders
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+*.ninja
+.ninja_*
+
+# Compiled artifacts
+*.exe
+*.dll
+*.o
+*.obj
+*.a
+*.lib
+*.pdb
+
+# OS / editor
+Thumbs.db
+.DS_Store
+.vscode/
+
+# Generated outputs (если это результаты запуска)
+output.csv
